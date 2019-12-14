@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+#root {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0;
+  background: linear-gradient(45deg, black, violet);
+  width: 100%;
+  height: 100vh;
+}
+
+#root div {
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 0 grey;
+          box-shadow: 5px 5px 15px 0 grey;
+  margin: auto auto;
+  padding: 10px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  cursor: pointer;
+}
+
+#root div a div {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0);
+  margin: -12px 0 0 -12px;
+}
+
+#ooo div {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0);
+  margin: -12px 0 0 -12px;
+}
+
+@media screen and (max-width: 1640px) {
+  #root div {
+    width: 280px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  #root div {
+    width: 260px;
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #root div {
+    width: 240px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  #root div {
+    width: 220px;
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  #root div {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #root {
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  #root div {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #root div {
+    width: 270px;
+    height: 135px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #root div {
+    width: 240px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #root div {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #root div {
+    width: 160px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #root {
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    height: 130vh;
+  }
+  #root div {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #root div {
+    width: 150px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #root div {
+    width: 130px;
+    height: 65px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
